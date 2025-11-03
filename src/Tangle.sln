@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.Core", "Tangle.Core\Tangle.Core.csproj", "{97B32DCE-3917-49DA-AB87-E9EF93FD77AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.Infrastructure", "Tangle.Infrastructure\Tangle.Infrastructure.csproj", "{B8541580-812E-4B00-93AE-477651CCDD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.Application", "Tangle.Application\Tangle.Application.csproj", "{7A6900D6-E7CB-4330-BA98-A5D8DA4AC269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.Localization", "Tangle.Localization\Tangle.Localization.csproj", "{2F86B510-D30B-437C-83AE-136095B62C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.UI", "Tangle.UI\Tangle.UI.csproj", "{B571273F-E923-46BE-8590-7C72999421AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangle.Tests", "Tangle.Tests\Tangle.Tests.csproj", "{5D4507A7-2F9F-45AF-B4C2-D5799F7DB3C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B32DCE-3917-49DA-AB87-E9EF93FD77AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B32DCE-3917-49DA-AB87-E9EF93FD77AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B32DCE-3917-49DA-AB87-E9EF93FD77AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B32DCE-3917-49DA-AB87-E9EF93FD77AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8541580-812E-4B00-93AE-477651CCDD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8541580-812E-4B00-93AE-477651CCDD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8541580-812E-4B00-93AE-477651CCDD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8541580-812E-4B00-93AE-477651CCDD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6900D6-E7CB-4330-BA98-A5D8DA4AC269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6900D6-E7CB-4330-BA98-A5D8DA4AC269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6900D6-E7CB-4330-BA98-A5D8DA4AC269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6900D6-E7CB-4330-BA98-A5D8DA4AC269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F86B510-D30B-437C-83AE-136095B62C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F86B510-D30B-437C-83AE-136095B62C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F86B510-D30B-437C-83AE-136095B62C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F86B510-D30B-437C-83AE-136095B62C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B571273F-E923-46BE-8590-7C72999421AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B571273F-E923-46BE-8590-7C72999421AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B571273F-E923-46BE-8590-7C72999421AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B571273F-E923-46BE-8590-7C72999421AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4507A7-2F9F-45AF-B4C2-D5799F7DB3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4507A7-2F9F-45AF-B4C2-D5799F7DB3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4507A7-2F9F-45AF-B4C2-D5799F7DB3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4507A7-2F9F-45AF-B4C2-D5799F7DB3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
