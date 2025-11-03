@@ -1,0 +1,92 @@
+# ========================
+# Build output / binaries
+# ========================
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]rtifacts/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# ========================
+# Avalonia / dotnet specifics
+# ========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.ncrunchsolution
+*.ncrunchproject
+*.dbmdl
+*.vspx
+*.vspscc
+*.orig
+*.swp
+*.tmp
+
+# Avalonia resources (generated XAML)
+**/bin/**/*.g.cs
+**/obj/**/*.g.cs
+**/obj/**/*.xaml.cs
+
+# ========================
+# JetBrains Rider / IntelliJ
+# ========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/.idea.*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests/
+.idea/assetWizardSettings.xml
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs / caches / temp
+# ========================
+*.log
+*.cache
+*.temp
+*.tmp
+*.bak
+*.old
+
+# ========================
+# NuGet
+# ========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# allow lock file
+!packages.lock.json
+
+# ========================
+# Test artifacts
+# ========================
+TestResults/
+*.coverage
+*.coveragexml
+*.testresult.xml
+
+# ========================
+# Rider solution-specific settings (optional)
+# ========================
+# Uncomment if you want to keep team-shared settings
+# .idea/.idea.<solution_name>.dir/.idea/
