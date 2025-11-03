@@ -50,5 +50,11 @@ namespace Tangle.Core {
                 return ResourceManager.GetString("InvalidFormatNumberMessage", resourceCulture);
             }
         }
+        
+        internal static string FieldExistsInCollectionMessage {
+            get {
+                return ResourceManager.GetString("FieldExistsInCollectionMessage", resourceCulture);
+            }
+        }
     }
 }

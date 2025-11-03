@@ -14,4 +14,7 @@
     <data name="InvalidFormatNumberMessage" xml:space="preserve">
         <value>Неверная запись числа "{0}"</value>
     </data>
+    <data name="FieldExistsInCollectionMessage" xml:space="preserve">
+        <value>Поле с именем "{0}" уже существует!</value>
+    </data>
 </root>

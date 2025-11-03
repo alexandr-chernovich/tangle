@@ -21,4 +21,7 @@
     <data name="InvalidFormatNumberMessage" xml:space="preserve">
         <value>Invalid number format "{0}"</value>
     </data>
+    <data name="FieldExistsInCollectionMessage" xml:space="preserve">
+        <value>A field with the name "{0}" already exists.</value>
+    </data>
 </root>
